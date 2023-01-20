@@ -1,0 +1,95 @@
+body{
+    text-align: center;
+    color: azure;
+    background-color: rgb(15, 37, 37);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bold{
+    
+    font-weight: bolder;
+}
+.tagline{
+    margin-top: -1.5rem;
+    color: rgba(240, 255, 255, 0.932);
+    font-size: larger;
+    font-family: cursive;
+    font-weight: lighter;
+}
+.ctask{
+    width: 18rem;
+    height: 2rem;
+    border: solid rgb(31, 126, 118);
+    border-radius: 10px;
+    outline: 0;
+    background-color: rgb(190, 218, 218);
+    padding: .3rem;
+    padding-left: 0rem;
+    color: rgba(19, 26, 46, 0.822);
+    font-weight: bold;
+    font-size: medium;
+    margin-right: auto;
+    margin-left: auto;
+}
+input[type=text]{
+    width: 14rem;
+    height: 1rem;
+    border: none;
+    outline: 0;
+    background-color: rgb(190, 218, 218);
+    padding: .3rem;
+    margin-top: 0.3rem;
+    color: rgba(19, 26, 46, 0.822);
+    font-weight: bold;
+    font-size: medium;
+}
+
+input:focus-visible{
+    color: rgb(29, 48, 48);
+}
+.todo{
+    width: 20rem;
+    height: 4rem;
+    background-color: rgb(190, 218, 218);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-top: 0.6rem; 
+}
+input[type=checkbox]{
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    float: left;
+    size: 10px;
+}
+.task-title{
+    padding: 0.5rem; 
+    margin-top: 0.6rem;
+    color: rgb(15, 37, 37);
+}
+.remove{
+    color: brown;
+    float: right;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.remove:active{
+    color: red;
+}
+.add{
+    color: darkgreen;
+    font-family: impact;
+    font-size: larger;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+.add:active{
+    color: green;
+}
+.time{
+    font-size: xx-small;
+    
+   /*  padding-bottom: 1.2rem; */
+    margin-top: -1rem;
+    color: darkolivegreen;
+}
