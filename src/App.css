@@ -46,6 +46,10 @@ input[type=text]{
 input:focus-visible{
     color: rgb(29, 48, 48);
 }
+.todos{
+    float: left;
+    width: 33.3%;
+}
 .todo{
     width: 20rem;
     height: 4rem;
@@ -56,23 +60,42 @@ input:focus-visible{
     margin-top: 0.6rem; 
 }
 input[type=checkbox]{
-    margin-left: 0.5rem;
-    margin-top: 0.5rem;
+    margin-left: 0.9rem;
+    margin-top: 1.5rem;
     float: left;
     size: 10px;
 }
 .task-title{
     padding: 0.5rem; 
     margin-top: 0.6rem;
+    margin-right: 1.1rem;
     color: rgb(15, 37, 37);
+}
+.remove-title{
+    text-decoration: 2px  line-through;
 }
 .remove{
     color: brown;
+    font-size: larger;
+    font-weight: bolder;
     float: right;
-    margin-right: 0.5rem;
+    margin-right: 0.9rem;
+    margin-top: -3rem;
     cursor: pointer;
 }
 .remove:active{
+    color: red;
+}
+.redo{
+    color: brown;
+    font-size: xx-large;
+    font-weight: bolder;
+    float: right;
+    margin-right: 0.9rem;
+    margin-top: -3rem;
+    cursor: pointer;
+}
+.redo:active{
     color: red;
 }
 .add{
@@ -87,9 +110,44 @@ input[type=checkbox]{
     color: green;
 }
 .time{
-    font-size: xx-small;
-    
-   /*  padding-bottom: 1.2rem; */
+    font-size: x-small;
     margin-top: -1rem;
-    color: darkolivegreen;
+   /*  padding-bottom: 1.2rem; 
+    color: darkolivegreen;*/
+    color: rgb(15, 37, 37);
+}
+.time-main{
+    font-size: x-small;
+    margin-top: -1.3rem;
+    
+    color: rgb(15, 37, 37);
+    /*  color: darkolivegreen;*/
+}
+.todo-done{
+    width: 20rem;
+    height: 4rem;
+    background-color: rgba(150, 212, 156, 0.89);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-top: 0.6rem; 
+}
+.todo-fail{
+    width: 20rem;
+    height: 4rem;
+    background-color: rgba(222, 150, 150, 0.979);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-top: 0.6rem; 
+}
+.ttlr{
+    padding: 0.5rem; 
+    margin-top: 0.6rem;
+    color: rgb(15, 37, 37);
+    font-size: larger;
+}
+.dph{
+    width: 100px;
+    height: 1px;
 }
