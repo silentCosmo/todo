@@ -47,16 +47,16 @@ input[type=text]{
 input:focus-visible{
     color: rgb(29, 48, 48);
 }
-/*.todos{
+.todos{
     float: left;
-    width: 33.3%; 
-} */
+    width: 33.3%;
+}
 .todo{
     width: 20rem;
-    height: 4rem; /*
-    margin-left: auto;
-    margin-right: auto; */
+    height: 4rem;
     background-color: rgb(190, 218, 218);
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 15px;
     margin-top: 0.6rem; 
 }
@@ -136,19 +136,19 @@ input[type=checkbox]{
 }
 .todo-done{
     width: 20rem;
-    height: 4rem;/* 
-    margin-left: auto;
-    margin-right: auto; */
+    height: 4rem;
     background-color: rgba(150, 212, 156, 0.89);
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 15px;
     margin-top: 0.6rem; 
 }
 .todo-fail{
     width: 20rem;
-    height: 4rem;/* 
-    margin-left: auto;
-    margin-right: auto; */
+    height: 4rem;
     background-color: rgba(222, 150, 150, 0.979);
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 15px;
     margin-top: 0.6rem; 
 }
