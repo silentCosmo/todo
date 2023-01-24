@@ -4,12 +4,12 @@ body{
     background-color: rgb(15, 37, 37);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.bold{
-    
+.app-name{
+    margin-top: 2rem;
     font-weight: bolder;
 }
 .tagline{
-    margin-top: -1.5rem;
+    margin-top: -0.5rem;
     color: rgba(240, 255, 255, 0.932);
     font-size: larger;
     font-family: cursive;
@@ -17,12 +17,13 @@ body{
 }
 .ctask{
     width: 18rem;
-    height: 2rem;
+    height: 3rem;
     border: solid rgb(31, 126, 118);
     border-radius: 10px;
     outline: 0;
     background-color: rgb(190, 218, 218);
     padding: .3rem;
+    margin-top: 0.9rem;
     padding-left: 0rem;
     color: rgba(19, 26, 46, 0.822);
     font-weight: bold;
@@ -80,7 +81,7 @@ input[type=checkbox]{
     font-weight: bolder;
     float: right;
     margin-right: 0.9rem;
-    margin-top: -3rem;
+    margin-top: -2.5rem;
     cursor: pointer;
 }
 .remove:active{
@@ -92,7 +93,7 @@ input[type=checkbox]{
     font-weight: bolder;
     float: right;
     margin-right: 0.9rem;
-    margin-top: -3rem;
+    margin-top: -2rem;
     cursor: pointer;
 }
 .redo:active{
@@ -111,14 +112,12 @@ input[type=checkbox]{
 }
 .time{
     font-size: x-small;
-    margin-top: -1rem;
-   /*  padding-bottom: 1.2rem; 
-    color: darkolivegreen;*/
+    margin-top: -0.5rem;
     color: rgb(15, 37, 37);
 }
 .time-main{
     font-size: x-small;
-    margin-top: -1.3rem;
+    margin-top: -1rem;
     
     color: rgb(15, 37, 37);
     /*  color: darkolivegreen;*/
@@ -145,7 +144,7 @@ input[type=checkbox]{
     padding: 0.5rem; 
     margin-top: 0.6rem;
     color: rgb(15, 37, 37);
-    font-size: larger;
+    font-size: x-large;
 }
 .dph{
     width: 100px;
